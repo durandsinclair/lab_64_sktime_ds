@@ -3,8 +3,8 @@ install:
 	pip install --upgrade pip &&\
 	pip install -r requirements.txt
 lint:
-	pylint -d=R,C *.py
-$(info No file types have been specified for linting.)
+#pylint -d=R,C *.py
+	$(info No file types have been specified for linting.)
 format:
 	black *.py
 test:
