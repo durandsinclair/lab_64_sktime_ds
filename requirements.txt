@@ -1,0 +1,23 @@
+black
+pylint
+pytest 
+pytest-cov
+
+numpy==1.20.2
+pandas==1.2.2
+matplotlib==3.3.4
+plotly==4.14.3
+sktime==0.8.0
+xgboost==1.4.2
+pmdarima==1.8.1
+joblib==1.0.1
+
+# Apps
+dash==1.20.0
+dash_bootstrap_components==0.12.2
+dash_design_kit==0.0.1
+dash_daq==0.5.0
+
+# Jupyter
+ipykernel
+nbformat
